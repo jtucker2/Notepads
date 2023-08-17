@@ -10,7 +10,8 @@
     xmlns:Core="using:Microsoft.Xaml.Interactions.Core"
     mc:Ignorable="d"
     NavigationCacheMode="Required"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    xmlns:muxc="using:Microsoft.UI.Xaml.Controls">
 
     <Grid x:Name="RootGrid" Background="Transparent">
         <Grid.BackgroundTransition>
